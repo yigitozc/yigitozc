@@ -22,7 +22,7 @@ class Yigit:
     studying  = "Computer Engineering @ Ankara University"
     building  = ["autonomous vehicles", "robot simulations", "web apps"]
     teams     = ["AUtomotion-R", "CORE Student Community", "MTA"]
-    speaks    = {"Turkish": "native", "English": "working", "Japanese": "beginner"}
+    speaks    = ["Turkish", "English", "Japanese (learning)"]
     ask_me    = "simulation and route planning"
 ```
 

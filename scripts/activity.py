@@ -68,8 +68,8 @@ def render(user):
     busiest = WEEKDAYS[by_weekday.index(max(by_weekday))] if any(by_weekday) else "—"
 
     cx, cy, r0, r1 = 200, 180, 46, 150
-    sizes = [1.4, 2.6, 3.4, 4.2, 5.2]
-    alphas = [0.35, 0.45, 0.65, 0.85, 1]
+    sizes = [1.8, 2.8, 3.6, 4.4, 5.4]
+    alphas = [0.7, 0.5, 0.7, 0.85, 1]
     dots = []
     for wi, week in enumerate(weeks):
         ang = -math.pi / 2 + 2 * math.pi * wi / len(weeks)
@@ -77,7 +77,7 @@ def render(user):
             ring = dt.date.fromisoformat(d["date"]).weekday()
             rad = r0 + (r1 - r0) * ring / 6
             lv = level(d["contributionCount"], cuts)
-            color = "#2ee6c5" if lv else "#2a3a66"
+            color = "#2ee6c5" if lv else "#3b5591"
             dots.append(
                 f'<circle cx="{cx + rad * math.cos(ang):.1f}" cy="{cy + rad * math.sin(ang):.1f}" '
                 f'r="{sizes[lv]}" fill="{color}" fill-opacity="{alphas[lv]}">'
@@ -95,9 +95,9 @@ def render(user):
     ]
     rows = []
     for i, (label, value) in enumerate(stats):
-        x, y = 430 + (i % 2) * 360, 96 + (i // 2) * 88
+        x, y = 430 + (i % 2) * 360, 100 + (i // 2) * 104
         rows.append(f'<text x="{x}" y="{y}" class="label">{label}</text>')
-        rows.append(f'<text x="{x}" y="{y + 38}" class="value">{value}</text>')
+        rows.append(f'<text x="{x}" y="{y + 50}" class="value">{value}</text>')
 
     updated = dt.date.today().isoformat()
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="GitHub activity of {LOGIN}">
@@ -111,10 +111,10 @@ def render(user):
   </defs>
   <style>
     .ring {{ fill: none; stroke: #18254a; }}
-    .label {{ font: 500 15px ui-monospace, 'JetBrains Mono', Consolas, monospace; fill: #8ea2c9; }}
-    .value {{ font: 700 32px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #f1f5ff; }}
-    .title {{ font: 600 18px ui-monospace, 'JetBrains Mono', Consolas, monospace; fill: #2ee6c5; }}
-    .foot {{ font: 400 13px ui-monospace, Consolas, monospace; fill: #5b6f99; }}
+    .label {{ font: 500 19px ui-monospace, 'JetBrains Mono', Consolas, monospace; fill: #8ea2c9; }}
+    .value {{ font: 700 44px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #f1f5ff; }}
+    .title {{ font: 600 22px ui-monospace, 'JetBrains Mono', Consolas, monospace; fill: #2ee6c5; }}
+    .foot {{ font: 400 16px ui-monospace, Consolas, monospace; fill: #5b6f99; }}
     .sweep {{ transform-origin: {cx}px {cy}px; animation: spin 6s linear infinite; }}
     @keyframes spin {{ to {{ transform: rotate(360deg); }} }}
   </style>
@@ -125,8 +125,8 @@ def render(user):
   <circle cx="{cx}" cy="{cy}" r="5" fill="#2ee6c5"/>
   <text x="430" y="48" class="title">&gt; activity scan</text>
   {''.join(rows)}
-  <text x="790" y="272" class="foot">one ring per weekday · one spoke per week</text>
-  <text x="790" y="294" class="foot">updated {updated}</text>
+  <text x="790" y="300" class="foot">one ring per weekday · one spoke per week</text>
+  <text x="790" y="324" class="foot">updated {updated}</text>
 </svg>
 """
 
