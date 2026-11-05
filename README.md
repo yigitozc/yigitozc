@@ -23,12 +23,13 @@ class Yigit:
     building  = ["autonomous vehicles", "robot simulations", "web apps"]
     teams     = ["AUtomotion-R", "CORE Student Community", "MTA"]
     speaks    = ["Turkish", "English", "Japanese (learning)"]
-    ask_me    = "simulation and route planning"
+    roles     = ["TEKNOFEST İKA team captain", "TÜBİTAK polar research team captain"]
 ```
 
 **Right now**
-- 🏎️ Building the autonomy stack for **TEKNOFEST Robotaksi** with team **AUtomotion-R**
-- 🧭 Simulating İKA (unmanned ground vehicle) obstacle courses in **Gazebo**
+- 🚙 Team captain of our **TEKNOFEST İKA** (unmanned ground vehicle) team at CORE
+- 🧊 Team captain of our **TÜBİTAK polar research** team
+- 🎪 On the organisation team of the **CORE Student Community**
 - 🌐 Coding the **MTA Workshop Inventory System** as my BLM2537 term project
 - 🇯🇵 Learning Japanese, one kanji at a time
 
@@ -44,74 +45,22 @@ class Yigit:
 <tr>
 <td width="50%" valign="top">
 
-### 🏎️ TEKNOFEST Robotaksi
-Autonomous passenger-car stack for the TEKNOFEST Robotaxi competition, built with team AUtomotion-R. Dockerised ROS 2 workspace, CARLA simulation and point-cloud map calibration.
-
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
-![CARLA](https://img.shields.io/badge/CARLA-0f1b33?style=flat-square)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-<br><sub>🔒 team project · private</sub>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧭 HTAB İKA Simulation
-A Gazebo and RViz test field for the unmanned ground vehicle (İKA) leg of TEKNOFEST Advanced Autonomous Systems: a 50×50 m rubble field whose three candidate corridors are generated from a seed.
-
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
-![Gazebo](https://img.shields.io/badge/Gazebo-F58113?style=flat-square)
-![RViz](https://img.shields.io/badge/RViz-0f1b33?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-<br><sub>🔒 private</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### ❄️ Edge AI Perception Pod
-HackAntarktika project: an edge AI perception module for polar field conditions.
-
-![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-<br><sub>🧊 hackathon</sub>
-
-</td>
-<td width="50%" valign="top">
-
 ### 🧰 [MTA Workshop Inventory](https://github.com/yigitozc/mta-atolye-takip)
 Inventory and request system for the National Technology Workshop. Students request parts, and coordinators approve and hand them out. Built for BLM2537 Web-Based Programming.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-<br><sub>🌐 public</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏭 MTA Management Platform
-Larger version of the workshop system: a separate frontend, an API gateway and a Java/Maven backend, with Playwright end-to-end tests.
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-<br><sub>🔒 private</sub>
 
 </td>
 <td width="50%" valign="top">
 
-### ☕ Mola Boutique Café
-Framework-free café site. The menu and live "how busy is it" status load from JSON, and it has an auto-playing slider and accessible dialogs.
+### 🗺️ [Portfolio site](https://github.com/yigitozc/yigitozc.github.io)
+My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its hero is a small simulation: a car plans its route with A* and scans obstacles with a lidar, and you can click to drop new obstacles in its way. English/Turkish, light/dark.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-<br><sub>🌐 web</sub>
 
 </td>
 </tr>
@@ -139,7 +88,10 @@ Framework-free café site. The menu and live "how busy is it" status load from J
 
 ## 🤝 Communities & clubs
 
-- **CORE Student Community**, Ankara University · *2025 → now*: events, organisation and sponsorship
+- **CORE Student Community**, Ankara University · *2025 → now*
+  - Team captain, TEKNOFEST İKA (unmanned ground vehicle) team
+  - Team captain, TÜBİTAK polar research team
+  - Organisation team
 - **AUtomotion-R**: autonomous vehicle team competing in TEKNOFEST
 - **MTA (National Technology Workshop)**: hands-on hardware and making community
 
@@ -161,27 +113,24 @@ Framework-free café site. The menu and live "how busy is it" status load from J
 **Merhaba, ben Yiğit!** Ankara Üniversitesi **Bilgisayar Mühendisliği** 2. sınıf öğrencisiyim. Vaktimin çoğu **otonom araçlarla** geçiyor: algı, simülasyon ve bunları birbirine bağlayan ROS 2 altyapısı. Simülatörde olmadığım zamanlarda framework kullanmadan küçük web uygulamaları geliştiriyorum.
 
 **Şu an**
-- 🏎️ **AUtomotion-R** takımıyla **TEKNOFEST Robotaksi** için otonom sürüş yazılımı geliştiriyorum
-- 🧭 **Gazebo**'da İKA (insansız kara aracı) parkurlarını simüle ediyorum
+- 🚙 CORE'daki **TEKNOFEST İKA** (insansız kara aracı) takımımızın kaptanıyım
+- 🧊 **TÜBİTAK kutup araştırmaları** takımımızın kaptanıyım
+- 🎪 **CORE Öğrenci Topluluğu**'nun organizasyon ekibindeyim
 - 🌐 BLM2537 dönem projem olarak **MTA Atölye Malzeme Takip Sistemi**'ni yazıyorum
 - 🇯🇵 Japonca öğreniyorum
 
 **Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor)
 
 **Projeler**
-- **TEKNOFEST Robotaksi**: AUtomotion-R ile otonom binek araç; Docker'lı ROS 2 çalışma alanı, CARLA simülasyonu, nokta bulutu harita kalibrasyonu
-- **HTAB İKA Simülasyonu**: İleri Otonom Sistemler İKA ayağı için Gazebo + RViz sahası; 50×50 m moloz alanı, tohumdan üretilen üç aday koridor
-- **Edge AI Otonom Algı Podu** (HackAntarktika): kutup saha koşulları için uç yapay zekâ tabanlı algı modülü
-- **[MTA Atölye Malzeme Takip Sistemi](https://github.com/yigitozc/mta-atolye-takip)**: öğrencilerin malzeme talep ettiği, koordinatörlerin onayladığı web sitesi
-- **MTA Yönetim Platformu**: ayrı frontend, API gateway ve Java/Maven backend; Playwright testleri
-- **Mola Butik Kafe**: JSON'dan beslenen menü ve doluluk durumu, otomatik slayt, erişilebilir modal pencereler
+- **[MTA Atölye Malzeme Takip Sistemi](https://github.com/yigitozc/mta-atolye-takip)**: öğrencilerin malzeme talep ettiği, koordinatörlerin onaylayıp teslim ettiği web sitesi
+- **[Portfolyo sitesi](https://yigitozc.github.io)**: A* ile yol planlayan ve LiDAR ile engelleri tarayan küçük bir araç simülasyonunun karşıladığı kişisel sitem; Türkçe/İngilizce, açık/koyu tema
 
 **Diller:** Türkçe (ana dil) · İngilizce (sınırlı mesleki yeterlilik) · Japonca (başlangıç)
 
 **Sertifikalar:** MATHCOM Python ile Programlama Eğitimi, Ankara Üniversitesi (Kasım 2025)
 
 **Topluluklar ve kulüpler**
-- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi (2025 → devam ediyor): etkinlik, organizasyon ve sponsorluk
+- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi (2025 → devam ediyor): TEKNOFEST İKA takım kaptanı, TÜBİTAK kutup araştırmaları takım kaptanı, organizasyon ekibi
 - **AUtomotion-R**: TEKNOFEST'te yarışan otonom araç takımı
 - **MTA (Milli Teknoloji Atölyesi)**
 
