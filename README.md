@@ -30,6 +30,13 @@ class Yigit:
 |---|---|
 | <img src="https://img.shields.io/badge/2025_→_now-0f1b33?style=flat-square" alt="2025 to now"> | **Ankara University**: B.Sc. Computer Engineering |
 
+## 💼 Experience
+
+**National Technology Workshop (MTA)**<br>
+*Workshop tracking system · Frontend development*
+
+I work on the frontend of the workshop's tracking system, a React and TypeScript progressive web app where students request materials and workshop staff manage approvals and hand-overs.
+
 ## 🏁 Competitions
 
 **TEKNOFEST 2026 Robotaxi Passenger Autonomous Vehicle Competition**<br>
@@ -77,7 +84,7 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 
 - **HTAB İKA Simulation**: Gazebo and RViz test field for the unmanned ground vehicle stage of TEKNOFEST Advanced Autonomous Systems
 - **Edge AI Perception Pod**: HackAntarktika project, an edge AI perception module for polar field conditions
-- **MTA Management Platform**: team project with a separate frontend, API gateway and Java backend
+- **MTA Tracking Platform**: team project with a separate frontend, API gateway and Java backend, where I work on the frontend
 - **Mola Boutique Café**: framework-free café website with a JSON-driven menu and occupancy status
 - **UGV 3D Model**: compact Blender model with suspension and laser animations
 
@@ -105,7 +112,6 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 
 - **CORE Student Community**, Ankara University · Board Member · *2025 – present*
 - **AUtomotion-R**, autonomous vehicle team
-- **National Technology Workshop (MTA)**, Ankara University
 
 ## 📡 Activity
 
@@ -126,6 +132,9 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 
 **Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor)
 
+**Deneyim**
+- **Milli Teknoloji Atölyesi (MTA)**: atölye takip sisteminin frontend tarafında çalışıyorum (React, TypeScript)
+
 **Katıldığım yarışmalar**
 - **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker. İşe otonom durak manevrasıyla başladım, sonrasında sistemin tüm mimarisine hâkim oldum. Kaynak kodu paylaşılmıyor.
 
@@ -136,7 +145,7 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Diğer projeler** (kaynak kodu paylaşılmıyor)
 - **HTAB İKA Simülasyonu**: TEKNOFEST İleri Otonom Sistemler İKA aşaması için Gazebo ve RViz test sahası
 - **Edge AI Otonom Algı Podu**: HackAntarktika projesi; kutup saha koşulları için uç yapay zekâ tabanlı algı modülü
-- **MTA Yönetim Platformu**: ayrı frontend, API gateway ve Java backend içeren takım projesi
+- **MTA Takip Platformu**: ayrı frontend, API gateway ve Java backend içeren takım projesi; frontend tarafında çalışıyorum
 - **Mola Butik Kafe**: JSON'dan beslenen menü ve doluluk durumuna sahip, framework'süz kafe sitesi
 - **İKA 3D Modeli**: süspansiyon ve lazer animasyonlu kompakt Blender modeli
 
@@ -147,7 +156,6 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Aktif olarak görev aldığım topluluklar**
 - **CORE Öğrenci Topluluğu**, Ankara Üniversitesi: Yönetim Kurulu Üyesi (2025 – devam ediyor)
 - **AUtomotion-R**, otonom araç takımı
-- **Milli Teknoloji Atölyesi (MTA)**, Ankara Üniversitesi
 
 📫 Bana [LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382) veya [e-posta](mailto:yigitozcelik88@gmail.com) ile ulaşabilirsin.
 
