@@ -28,7 +28,7 @@ class Yigit:
 
 | | |
 |---|---|
-| <img src="https://img.shields.io/badge/2025_→_now-0f1b33?style=flat-square" alt="2025 to now"> | **Ankara University**: B.Sc. Computer Engineering |
+| <img src="https://img.shields.io/badge/2025_→_now-0f1b33?style=flat-square" alt="2025 to now"> | **Ankara University**: B.Sc. Computer Engineering · GPA 3.23 |
 
 ## 💼 Experience
 
@@ -54,6 +54,18 @@ An end-to-end autonomy stack for the BEE1 passenger vehicle, built for static an
 | **Deployment** | ROS 2 Foxy in a single GPU Docker image, with a simulation bridge and per-day scenario tests |
 
 ## 🚀 Projects
+
+**Active projects · 2026** (source code not public)
+
+| Project | Work | Stack |
+|---|---|---|
+| **Unmanned Ground Vehicle (İKA)** | Team captain. Modelled the vehicle in Blender for our Gazebo simulation of the competition course | ROS 2, Gazebo, Blender, Python |
+| **Advanced Autonomous Systems** | Simulation and route planning, including a seed-generated Gazebo and RViz test field | ROS 2, Gazebo, RViz, Python, Hybrid A* |
+| **Swarm UAV** | Active 2026 project | |
+| **Polar Research** | Team captain, TÜBİTAK polar research | |
+| **Robotaxi: Original Vehicle** | Real-time simulation in CARLA, connected through a ROS 2 bridge | CARLA, ROS 2, Python, Blender |
+
+**Open source**
 
 <table>
 <tr>
@@ -82,11 +94,8 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 
 **Other projects** (source code not public)
 
-- **HTAB İKA Simulation**: Gazebo and RViz test field for the unmanned ground vehicle stage of TEKNOFEST Advanced Autonomous Systems
 - **Edge AI Perception Pod**: HackAntarktika project, an edge AI perception module for polar field conditions
 - **MTA Tracking Platform**: team project with a separate frontend, API gateway and Java backend, where I work on the frontend
-- **Mola Boutique Café**: framework-free café website with a JSON-driven menu and occupancy status
-- **UGV 3D Model**: compact Blender model with suspension and laser animations
 
 ## 🛠️ Tech stack
 
@@ -111,7 +120,6 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 ## 🤝 Active communities
 
 - **CORE Student Community**, Ankara University · Board Member · *2025 – present*
-- **AUtomotion-R**, autonomous vehicle team
 
 ## 📡 Activity
 
@@ -130,7 +138,7 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 
 Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Otonom kara araçları ve algı, konumlama ve planlama katmanlarının gerçek bir araç üzerinde birlikte çalışmasını sağlayan yazılımlar üzerine çalışıyorum. Bu sistemlerde beni en çok, onları güvenilir kılan mühendislik ilgilendiriyor: modüller arasında net arayüzler, tekrarlanabilir testler ve sahayı doğru yansıtan simülasyonlar. Bunun yanında web uygulamaları geliştiriyor, üniversitemdeki öğrenci topluluklarında aktif olarak yer alıyorum.
 
-**Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor)
+**Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor) · Ortalama 3.23
 
 **Deneyim**
 - **Milli Teknoloji Atölyesi (MTA)**: atölye takip sisteminin frontend tarafında çalışıyorum (React, TypeScript)
@@ -138,16 +146,20 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Katıldığım yarışmalar**
 - **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker. İşe otonom durak manevrasıyla başladım, sonrasında sistemin tüm mimarisine hâkim oldum. Kaynak kodu paylaşılmıyor.
 
-**Projeler**
+**Aktif projeler · 2026** (kaynak kodu paylaşılmıyor)
+- **İnsansız Kara Aracı (İKA)**: takım kaptanı; aracı Blender üzerinde modelledim, parkurun Gazebo simülasyonunda kullanıyoruz (ROS 2, Gazebo, Blender, Python)
+- **İleri Otonom Sistemler**: simülasyon ve rota planlama (ROS 2, Gazebo, RViz, Python, Hybrid A*)
+- **Sürü İHA**
+- **Kutup Araştırmaları**: takım kaptanı, TÜBİTAK kutup araştırmaları
+- **Robotaksi Özgün**: CARLA üzerinde gerçek zamanlı simülasyon (CARLA, ROS 2, Python, Blender)
+
+**Açık kaynak projeler**
 - **[MTA Atölye Malzeme Takip Sistemi](https://github.com/yigitozc/mta-atolye-takip)**: öğrencilerin malzeme talep ettiği, koordinatörlerin onaylayıp teslim ettiği web uygulaması
 - **[Portfolyo sitesi](https://yigitozc.github.io)**: sınır tabanlı keşif simülasyonu içeren kişisel sitem: LiDAR ışın izleme, doluluk ızgarası, A* ile yeniden planlama
 
 **Diğer projeler** (kaynak kodu paylaşılmıyor)
-- **HTAB İKA Simülasyonu**: TEKNOFEST İleri Otonom Sistemler İKA aşaması için Gazebo ve RViz test sahası
 - **Edge AI Otonom Algı Podu**: HackAntarktika projesi; kutup saha koşulları için uç yapay zekâ tabanlı algı modülü
 - **MTA Takip Platformu**: ayrı frontend, API gateway ve Java backend içeren takım projesi; frontend tarafında çalışıyorum
-- **Mola Butik Kafe**: JSON'dan beslenen menü ve doluluk durumuna sahip, framework'süz kafe sitesi
-- **İKA 3D Modeli**: süspansiyon ve lazer animasyonlu kompakt Blender modeli
 
 **Diller:** Türkçe (ana dil) · İngilizce (sınırlı mesleki yeterlilik) · Japonca (başlangıç)
 
@@ -155,7 +167,6 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 
 **Aktif olarak görev aldığım topluluklar**
 - **CORE Öğrenci Topluluğu**, Ankara Üniversitesi: Yönetim Kurulu Üyesi (2025 – devam ediyor)
-- **AUtomotion-R**, otonom araç takımı
 
 📫 Bana [LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382) veya [e-posta](mailto:yigitozcelik88@gmail.com) ile ulaşabilirsin.
 
