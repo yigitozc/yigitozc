@@ -14,30 +14,36 @@
 
 ## 👋 About me
 
-I'm a second-year **Computer Engineering** student at **Ankara University**. Most of my time goes into **autonomous vehicles**: perception, simulation and the ROS 2 plumbing that connects them. When I'm not in a simulator, I build small, framework-free web apps.
+I am a second-year **Computer Engineering** student at **Ankara University**, working on **autonomous ground vehicles** and the software that lets perception, localization and planning run together on a real platform. What interests me most is the engineering that makes these systems dependable: clear interfaces between modules, repeatable tests and simulations that reflect the field. I also build web applications and take an active part in student communities at my university.
 
 ```python
 class Yigit:
     location  = "Ankara, Türkiye"
     studying  = "Computer Engineering @ Ankara University"
-    building  = ["autonomous vehicles", "robot simulations", "web apps"]
-    teams     = ["AUtomotion-R", "CORE Student Community", "MTA"]
-    speaks    = ["Turkish", "English", "Japanese (learning)"]
-    roles     = ["TEKNOFEST İKA team captain", "TÜBİTAK polar research team captain"]
+    focus     = ["autonomous ground vehicles", "robot simulation", "web applications"]
+    languages = {"Turkish": "native", "English": "limited working", "Japanese": "elementary"}
 ```
-
-**Right now**
-- 🚙 Team captain of our **TEKNOFEST İKA** (unmanned ground vehicle) team at CORE
-- 🧊 Team captain of our **TÜBİTAK polar research** team
-- 🎪 On the organisation team of the **CORE Student Community**
-- 🌐 Coding the **MTA Workshop Inventory System** as my BLM2537 term project
-- 🇯🇵 Learning Japanese, one kanji at a time
 
 ## 🎓 Education
 
 | | |
 |---|---|
 | <img src="https://img.shields.io/badge/2025_→_now-0f1b33?style=flat-square" alt="2025 to now"> | **Ankara University**: B.Sc. Computer Engineering |
+
+## 🏁 Competitions
+
+**TEKNOFEST 2026 Robotaxi Passenger Autonomous Vehicle Competition**<br>
+*Ready-made vehicle category · Team AUtomotion-R · Finalist*
+
+An end-to-end autonomy stack for the BEE1 passenger vehicle, built for static and dynamic traffic scenarios on a closed track.
+
+| | |
+|---|---|
+| **Perception** | Lane detection with a CLRerNet model fine-tuned on track data, traffic sign and light detection with YOLO, Velodyne lidar processing per zone around the vehicle |
+| **Localization** | Map-frame pose from an Xsens MTi GNSS/INS unit, supported by wheel odometry |
+| **Planning** | A* routing between map zones, Lanelet2 centre-line following, behaviour tree for overtaking and parking |
+| **Control** | Lane following and overtaking controller, the only node writing to the vehicle's CAN bus |
+| **Deployment** | ROS 2 Foxy in a single GPU Docker image, with a simulation bridge and per-day scenario tests |
 
 ## 🚀 Projects
 
@@ -46,7 +52,7 @@ class Yigit:
 <td width="50%" valign="top">
 
 ### 🧰 [MTA Workshop Inventory](https://github.com/yigitozc/mta-atolye-takip)
-Inventory and request system for the National Technology Workshop. Students request parts, and coordinators approve and hand them out. Built for BLM2537 Web-Based Programming.
+Inventory and request system for the National Technology Workshop. Students request parts, and coordinators approve and hand them out. 
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -56,7 +62,7 @@ Inventory and request system for the National Technology Workshop. Students requ
 <td width="50%" valign="top">
 
 ### 🗺️ [Portfolio site](https://github.com/yigitozc/yigitozc.github.io)
-My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its hero is a small simulation: a car plans its route with A* and scans obstacles with a lidar, and you can click to drop new obstacles in its way. English/Turkish, light/dark.
+My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simulation implements frontier-based exploration: lidar ray casting, an occupancy grid, A* replanning and path tracking, with no libraries.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -80,20 +86,17 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its hero i
 |---|---|
 | 🇹🇷 Turkish | Native |
 | 🇬🇧 English | Limited working proficiency |
-| 🇯🇵 Japanese | Elementary |
+| 🇯🇵 Japanese | Elementary proficiency |
 
 ## 📜 Certifications
 
 - **Programming with Python**: MATHCOM · Ankara University · *Nov 2025*
 
-## 🤝 Communities & clubs
+## 🤝 Active communities
 
-- **CORE Student Community**, Ankara University · *2025 → now*
-  - Team captain, TEKNOFEST İKA (unmanned ground vehicle) team
-  - Team captain, TÜBİTAK polar research team
-  - Organisation team
-- **AUtomotion-R**: autonomous vehicle team competing in TEKNOFEST
-- **MTA (National Technology Workshop)**: hands-on hardware and making community
+- **CORE Student Community**, Ankara University · Board Member · *2025 – present*
+- **AUtomotion-R**, autonomous vehicle team
+- **National Technology Workshop (MTA)**, Ankara University
 
 ## 📡 Activity
 
@@ -110,29 +113,25 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its hero i
 
 <br>
 
-**Merhaba, ben Yiğit!** Ankara Üniversitesi **Bilgisayar Mühendisliği** 2. sınıf öğrencisiyim. Vaktimin çoğu **otonom araçlarla** geçiyor: algı, simülasyon ve bunları birbirine bağlayan ROS 2 altyapısı. Simülatörde olmadığım zamanlarda framework kullanmadan küçük web uygulamaları geliştiriyorum.
-
-**Şu an**
-- 🚙 CORE'daki **TEKNOFEST İKA** (insansız kara aracı) takımımızın kaptanıyım
-- 🧊 **TÜBİTAK kutup araştırmaları** takımımızın kaptanıyım
-- 🎪 **CORE Öğrenci Topluluğu**'nun organizasyon ekibindeyim
-- 🌐 BLM2537 dönem projem olarak **MTA Atölye Malzeme Takip Sistemi**'ni yazıyorum
-- 🇯🇵 Japonca öğreniyorum
+Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Otonom kara araçları ve algı, konumlama ve planlama katmanlarının gerçek bir araç üzerinde birlikte çalışmasını sağlayan yazılımlar üzerine çalışıyorum. Bu sistemlerde beni en çok, onları güvenilir kılan mühendislik ilgilendiriyor: modüller arasında net arayüzler, tekrarlanabilir testler ve sahayı doğru yansıtan simülasyonlar. Bunun yanında web uygulamaları geliştiriyor, üniversitemdeki öğrenci topluluklarında aktif olarak yer alıyorum.
 
 **Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor)
 
+**Katıldığım yarışmalar**
+- **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker.
+
 **Projeler**
-- **[MTA Atölye Malzeme Takip Sistemi](https://github.com/yigitozc/mta-atolye-takip)**: öğrencilerin malzeme talep ettiği, koordinatörlerin onaylayıp teslim ettiği web sitesi
-- **[Portfolyo sitesi](https://yigitozc.github.io)**: A* ile yol planlayan ve LiDAR ile engelleri tarayan küçük bir araç simülasyonunun karşıladığı kişisel sitem; Türkçe/İngilizce, açık/koyu tema
+- **[MTA Atölye Malzeme Takip Sistemi](https://github.com/yigitozc/mta-atolye-takip)**: öğrencilerin malzeme talep ettiği, koordinatörlerin onaylayıp teslim ettiği web uygulaması
+- **[Portfolyo sitesi](https://yigitozc.github.io)**: sınır tabanlı keşif simülasyonu içeren kişisel sitem: LiDAR ışın izleme, doluluk ızgarası, A* ile yeniden planlama
 
 **Diller:** Türkçe (ana dil) · İngilizce (sınırlı mesleki yeterlilik) · Japonca (başlangıç)
 
 **Sertifikalar:** MATHCOM Python ile Programlama Eğitimi, Ankara Üniversitesi (Kasım 2025)
 
-**Topluluklar ve kulüpler**
-- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi (2025 → devam ediyor): TEKNOFEST İKA takım kaptanı, TÜBİTAK kutup araştırmaları takım kaptanı, organizasyon ekibi
-- **AUtomotion-R**: TEKNOFEST'te yarışan otonom araç takımı
-- **MTA (Milli Teknoloji Atölyesi)**
+**Aktif olarak görev aldığım topluluklar**
+- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi: Yönetim Kurulu Üyesi (2025 – devam ediyor)
+- **AUtomotion-R**, otonom araç takımı
+- **Milli Teknoloji Atölyesi (MTA)**, Ankara Üniversitesi
 
 📫 Bana [LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382) veya [e-posta](mailto:yigitozcelik88@gmail.com) ile ulaşabilirsin.
 
