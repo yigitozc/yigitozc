@@ -24,6 +24,16 @@ class Yigit:
     languages = {"Turkish": "native", "English": "limited working", "Japanese": "elementary"}
 ```
 
+**What I build with**
+
+| | |
+|---|---|
+| **Python** | ROS 2 nodes and simulation tooling: a seed-generated Gazebo test field, Gazebo vehicle models generated from Blender meshes, tools around a CARLA and ROS 2 bridge |
+| **ROS 2** | Autonomous bus-stop manoeuvre and the system architecture of the Robotaxi stack |
+| **TypeScript · React** | Frontend of the MTA tracking system, a PWA with TanStack, Zod, Tailwind CSS and Keycloak |
+| **JavaScript · Canvas** | Library-free lidar, occupancy grid and A* simulation on my website; MTA inventory app |
+| **Blender** | 3D model of the unmanned ground vehicle, carried into Gazebo |
+
 ## 🎓 Education
 
 | | |
@@ -139,6 +149,13 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Otonom kara araçları ve algı, konumlama ve planlama katmanlarının gerçek bir araç üzerinde birlikte çalışmasını sağlayan yazılımlar üzerine çalışıyorum. Bu sistemlerde beni en çok, onları güvenilir kılan mühendislik ilgilendiriyor: modüller arasında net arayüzler, tekrarlanabilir testler ve sahayı doğru yansıtan simülasyonlar. Bunun yanında web uygulamaları geliştiriyor, üniversitemdeki öğrenci topluluklarında aktif olarak yer alıyorum.
 
 **Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor) · Ortalama 3.23
+
+**Neyle ne yaptım**
+- **Python**: ROS 2 düğümleri ve simülasyon araçları (Gazebo test sahası, Blender'dan Gazebo model üretimi, CARLA ve ROS 2 köprüsü araçları)
+- **ROS 2**: Robotaksi yazılımında otonom durak manevrası ve sistem mimarisi
+- **TypeScript · React**: MTA takip sisteminin frontend'i
+- **JavaScript · Canvas**: kişisel sitemdeki kütüphanesiz LiDAR ve A* simülasyonu, MTA malzeme takip uygulaması
+- **Blender**: insansız kara aracının 3D modeli
 
 **Deneyim**
 - **Milli Teknoloji Atölyesi (MTA)**: atölye takip sisteminin frontend tarafında çalışıyorum (React, TypeScript)
