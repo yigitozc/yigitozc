@@ -35,10 +35,11 @@ class Yigit:
 **TEKNOFEST 2026 Robotaxi Passenger Autonomous Vehicle Competition**<br>
 *Ready-made vehicle category · Team AUtomotion-R · Finalist*
 
-An end-to-end autonomy stack for the BEE1 passenger vehicle, built for static and dynamic traffic scenarios on a closed track.
+An end-to-end autonomy stack for the BEE1 passenger vehicle, built for static and dynamic traffic scenarios on a closed track. The source code is private.
 
 | | |
 |---|---|
+| **My role** | Started on the autonomous bus-stop manoeuvre (stop sign detection, entering the bay, IMU-confirmed full stop, rejoining the lane), later grew to cover the architecture of the whole system |
 | **Perception** | Lane detection with a CLRerNet model fine-tuned on track data, traffic sign and light detection with YOLO, Velodyne lidar processing per zone around the vehicle |
 | **Localization** | Map-frame pose from an Xsens MTi GNSS/INS unit, supported by wheel odometry |
 | **Planning** | A* routing between map zones, Lanelet2 centre-line following, behaviour tree for overtaking and parking |
@@ -71,6 +72,14 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 </td>
 </tr>
 </table>
+
+**Other projects** (source code not public)
+
+- **HTAB İKA Simulation**: Gazebo and RViz test field for the unmanned ground vehicle stage of TEKNOFEST Advanced Autonomous Systems
+- **Edge AI Perception Pod**: HackAntarktika project, an edge AI perception module for polar field conditions
+- **MTA Management Platform**: team project with a separate frontend, API gateway and Java backend
+- **Mola Boutique Café**: framework-free café website with a JSON-driven menu and occupancy status
+- **UGV 3D Model**: compact Blender model with suspension and laser animations
 
 ## 🛠️ Tech stack
 
@@ -118,11 +127,18 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor)
 
 **Katıldığım yarışmalar**
-- **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker.
+- **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker. İşe otonom durak manevrasıyla başladım, sonrasında sistemin tüm mimarisine hâkim oldum. Kaynak kodu paylaşılmıyor.
 
 **Projeler**
 - **[MTA Atölye Malzeme Takip Sistemi](https://github.com/yigitozc/mta-atolye-takip)**: öğrencilerin malzeme talep ettiği, koordinatörlerin onaylayıp teslim ettiği web uygulaması
 - **[Portfolyo sitesi](https://yigitozc.github.io)**: sınır tabanlı keşif simülasyonu içeren kişisel sitem: LiDAR ışın izleme, doluluk ızgarası, A* ile yeniden planlama
+
+**Diğer projeler** (kaynak kodu paylaşılmıyor)
+- **HTAB İKA Simülasyonu**: TEKNOFEST İleri Otonom Sistemler İKA aşaması için Gazebo ve RViz test sahası
+- **Edge AI Otonom Algı Podu**: HackAntarktika projesi; kutup saha koşulları için uç yapay zekâ tabanlı algı modülü
+- **MTA Yönetim Platformu**: ayrı frontend, API gateway ve Java backend içeren takım projesi
+- **Mola Butik Kafe**: JSON'dan beslenen menü ve doluluk durumuna sahip, framework'süz kafe sitesi
+- **İKA 3D Modeli**: süspansiyon ve lazer animasyonlu kompakt Blender modeli
 
 **Diller:** Türkçe (ana dil) · İngilizce (sınırlı mesleki yeterlilik) · Japonca (başlangıç)
 
