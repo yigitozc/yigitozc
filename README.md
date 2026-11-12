@@ -3,9 +3,10 @@
 </p>
 
 <p align="center">
-  <a href="https://yigitozc.github.io"><img src="https://img.shields.io/badge/Portfolio-yigitozc.github.io-2ee6c5?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=0f1b33" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382"><img src="https://img.shields.io/badge/LinkedIn-Yiğit_Özçelik-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f1b33" alt="LinkedIn"></a>
-  <a href="mailto:yigitozcelik88@gmail.com"><img src="https://img.shields.io/badge/Email-yigitozcelik88@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f1b33" alt="Email"></a>
+  <a href="https://yigitozc.github.io"><img src="https://img.shields.io/badge/Portfolio-14181f?style=for-the-badge&logo=githubpages&logoColor=F6E09B" alt="Portfolio"></a>
+  <a href="https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382"><img src="https://img.shields.io/badge/LinkedIn-14181f?style=for-the-badge&logo=linkedin&logoColor=F6E09B" alt="LinkedIn"></a>
+  <a href="mailto:yigitozcelik88@gmail.com"><img src="https://img.shields.io/badge/Email-14181f?style=for-the-badge&logo=gmail&logoColor=F6E09B" alt="Email"></a>
+  <a href="https://yigitozc.github.io/assets/Yigit_Ozcelik_CV.pdf"><img src="https://img.shields.io/badge/CV-14181f?style=for-the-badge&logo=readdotcv&logoColor=F6E09B" alt="CV"></a>
 </p>
 
 <p align="center">
@@ -28,7 +29,7 @@ class Yigit:
 
 | | |
 |---|---|
-| **Python** | ROS 2 nodes and simulation tooling: a seed-generated Gazebo test field, Gazebo vehicle models generated from Blender meshes, tools around a CARLA and ROS 2 bridge |
+| **Python** | ROS 2 nodes and simulation tooling: an infinite-seed Gazebo test field with batch runs across many seeds, Gazebo vehicle models generated from Blender meshes, tools around a CARLA and ROS 2 bridge |
 | **ROS 2** | Autonomous bus-stop manoeuvre and the system architecture of the Robotaxi stack |
 | **TypeScript · React** | Frontend of the MTA tracking system, a PWA with TanStack, Zod, Tailwind CSS and Keycloak |
 | **JavaScript · Canvas** | Library-free lidar, occupancy grid and A* simulation on my website; MTA inventory app |
@@ -69,8 +70,8 @@ An end-to-end autonomy stack for the BEE1 passenger vehicle, built for static an
 
 | Project | Work | Stack |
 |---|---|---|
-| **Unmanned Ground Vehicle (İKA)** | Team captain. Modelled the vehicle in Blender for our Gazebo simulation of the competition course | ROS 2, Gazebo, Blender, Python |
-| **Advanced Autonomous Systems** | Simulation and route planning, including a seed-generated Gazebo and RViz test field | ROS 2, Gazebo, RViz, Python, Hybrid A* |
+| **Unmanned Ground Vehicle (İKA)** | Team captain, part of the whole process; the vehicle's simulation is my area: Blender model and Gazebo model generation | ROS 2, Gazebo, Blender, Python |
+| **Advanced Autonomous Systems** | Simulation and route planning; an infinite-seed Gazebo and RViz simulation where every seed generates a different rubble field | ROS 2, Gazebo, RViz, Python, Hybrid A* |
 | **Swarm UAV** | Active 2026 project | |
 | **Polar Research** | Team captain, TÜBİTAK polar research | |
 | **Robotaxi: Original Vehicle** | Real-time simulation in CARLA, connected through a ROS 2 bridge | CARLA, ROS 2, Python, Blender |
@@ -129,7 +130,7 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 
 ## 🤝 Active communities
 
-- **CORE Student Community**, Ankara University · Board Member · *2025 – present*
+- **CORE Student Community**, Ankara University · Substitute Board Member · *2025 – present*
 
 ## 📡 Activity
 
@@ -151,7 +152,7 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Eğitim:** Ankara Üniversitesi, Bilgisayar Mühendisliği (2025 → devam ediyor) · Ortalama 3.23
 
 **Neyle ne yaptım**
-- **Python**: ROS 2 düğümleri ve simülasyon araçları (Gazebo test sahası, Blender'dan Gazebo model üretimi, CARLA ve ROS 2 köprüsü araçları)
+- **Python**: ROS 2 düğümleri ve simülasyon araçları (sonsuz tohumlu Gazebo test sahası, Blender'dan Gazebo model üretimi, CARLA ve ROS 2 köprüsü araçları)
 - **ROS 2**: Robotaksi yazılımında otonom durak manevrası ve sistem mimarisi
 - **TypeScript · React**: MTA takip sisteminin frontend'i
 - **JavaScript · Canvas**: kişisel sitemdeki kütüphanesiz LiDAR ve A* simülasyonu, MTA malzeme takip uygulaması
@@ -164,8 +165,8 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 - **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker. İşe otonom durak manevrasıyla başladım, sonrasında sistemin tüm mimarisine hâkim oldum. Kaynak kodu paylaşılmıyor.
 
 **Aktif projeler · 2026** (kaynak kodu paylaşılmıyor)
-- **İnsansız Kara Aracı (İKA)**: takım kaptanı; aracı Blender üzerinde modelledim, parkurun Gazebo simülasyonunda kullanıyoruz (ROS 2, Gazebo, Blender, Python)
-- **İleri Otonom Sistemler**: simülasyon ve rota planlama (ROS 2, Gazebo, RViz, Python, Hybrid A*)
+- **İnsansız Kara Aracı (İKA)**: takım kaptanı olarak genel süreçte yer alıyorum, aracın simülasyon kısmı bende; Blender modeli ve Gazebo model üretimi (ROS 2, Gazebo, Blender, Python)
+- **İleri Otonom Sistemler**: simülasyon ve rota planlama; her tohumun farklı bir moloz sahası ürettiği sonsuz tohumlu simülasyon (ROS 2, Gazebo, RViz, Python, Hybrid A*)
 - **Sürü İHA**
 - **Kutup Araştırmaları**: takım kaptanı, TÜBİTAK kutup araştırmaları
 - **Robotaksi Özgün**: CARLA üzerinde gerçek zamanlı simülasyon (CARLA, ROS 2, Python, Blender)
@@ -183,7 +184,7 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Sertifikalar:** MATHCOM Python ile Programlama Eğitimi, Ankara Üniversitesi (Kasım 2025)
 
 **Aktif olarak görev aldığım topluluklar**
-- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi: Yönetim Kurulu Üyesi (2025 – devam ediyor)
+- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi: Yönetim Kurulu Yedek Üyesi (2025 – devam ediyor)
 
 📫 Bana [LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382) veya [e-posta](mailto:yigitozcelik88@gmail.com) ile ulaşabilirsin.
 
