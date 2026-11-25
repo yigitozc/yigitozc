@@ -130,7 +130,7 @@ My personal site at [yigitozc.github.io](https://yigitozc.github.io). Its simula
 
 ## 🤝 Active communities
 
-- **CORE Student Community**, Ankara University · Substitute Board Member · *2025 – present*
+- **CORE Student Community**, Ankara University · *2025 – present*
 
 ## 📡 Activity
 
@@ -184,7 +184,7 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 **Sertifikalar:** MATHCOM Python ile Programlama Eğitimi, Ankara Üniversitesi (Kasım 2025)
 
 **Aktif olarak görev aldığım topluluklar**
-- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi: Yönetim Kurulu Yedek Üyesi (2025 – devam ediyor)
+- **CORE Öğrenci Topluluğu**, Ankara Üniversitesi (2025 – devam ediyor)
 
 📫 Bana [LinkedIn](https://www.linkedin.com/in/yi%C4%9Fit-%C3%B6z%C3%A7elik-386645382) veya [e-posta](mailto:yigitozcelik88@gmail.com) ile ulaşabilirsin.
 
