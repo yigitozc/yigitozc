@@ -44,7 +44,7 @@ class Yigit:
 ## 💼 Experience
 
 **National Technology Workshop (MTA)**<br>
-*Workshop tracking system · Frontend development*
+*Workshop tracking system · Frontend development · Sep 2026 – present*
 
 I work on the frontend of the workshop's tracking system, a React and TypeScript progressive web app where students request materials and workshop staff manage approvals and hand-overs.
 
@@ -159,7 +159,7 @@ Ankara Üniversitesi Bilgisayar Mühendisliği ikinci sınıf öğrencisiyim. Ot
 - **Blender**: insansız kara aracının 3D modeli
 
 **Deneyim**
-- **Milli Teknoloji Atölyesi (MTA)**: atölye takip sisteminin frontend tarafında çalışıyorum (React, TypeScript)
+- **Milli Teknoloji Atölyesi (MTA)** (Eylül 2026 – devam ediyor): atölye takip sisteminin frontend tarafında çalışıyorum (React, TypeScript)
 
 **Katıldığım yarışmalar**
 - **TEKNOFEST 2026 Robotaksi Binek Otonom Araç Yarışması** (hazır araç kategorisi, AUtomotion-R, finalist): BEE1 binek aracı için uçtan uca otonom sürüş yazılımı. CLRerNet ile şerit algılama, YOLO ile trafik işareti ve ışık tespiti, Velodyne LiDAR ile engel algılama, Xsens MTi GNSS/INS ile konumlama, Lanelet2 ve davranış ağacı ile planlama; ROS 2 Foxy ve Docker. İşe otonom durak manevrasıyla başladım, sonrasında sistemin tüm mimarisine hâkim oldum. Kaynak kodu paylaşılmıyor.
